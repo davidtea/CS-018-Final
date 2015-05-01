@@ -1,0 +1,8 @@
+To view comments on tables in postgres use:
+
+SELECT RelName,Description  
+FROM pg_Description JOIN pg_Class  
+ON pg_Description.ObjOID = pg_Class.OID 
+WHERE ObjSubID = 0;
+
+this shows all comments for all tables in current database.
