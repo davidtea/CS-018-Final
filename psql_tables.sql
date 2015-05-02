@@ -55,7 +55,7 @@ Create Table Product_History(
   id int primary key not null,
   name varchar(30) not null,
   description text,
-  quantity[] decimal not null,
+  quantity decimal[] not null,
   price money[] not null,
   history date[] not null
 );
