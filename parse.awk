@@ -58,7 +58,7 @@ END {
   print "\nTop 15 most frequent words:"
   for (i=0; i<15; i++)
   {
-    tmpword = sprintf ("|%s: %d|", indices[num-i], words[indices[num-i]])
+    tmpword = sprintf ("%s: %d", indices[num-i], words[indices[num-i]])
     printf "%-25s\t", tmpword
     #printf ("| %s: (%d) %d| \n", indices[num-i], length(indices[num-i]), words[indices[num-i]])
     if (i%5 == 4)
@@ -68,7 +68,7 @@ END {
   print "Top 15 least frequent words:"
   for (i=1; i<=15; i++) 
   {
-    tmpword = sprintf ("|%s: %d|", indices[i], words[indices[i]])
+    tmpword = sprintf ("%s: %d", indices[i], words[indices[i]])
     printf "%-25s\t", tmpword
     #printf ("|%s: %d| \n", indices[i], words[indices[i]])
     if (i%5 == 0)

@@ -1,0 +1,14 @@
+132.txt already exists, will not download again.
+REPORT:
+Word Count: 57036		Average Word Length: 4.397889		Number of Sentences: 2754
+Length of Shortest Word: 1	 Longest Word: 20
+
+Top 15 most frequent words:
+the: 3813                	of: 2100                 	to: 1695                 	and: 1479                	in: 1206                 	
+a: 1028                  	is: 967                  	that: 620                	be: 612                  	his: 507                 	
+it: 454                  	he: 444                  	on: 435                  	not: 418                 	by: 415                  	
+
+Top 15 least frequent words:
+aback: 1                 	abandon: 1               	abated: 1                	abeyance: 1              	abnormal: 1              	
+abnormally: 1            	abreast: 1               	abruptly: 1              	abscess: 1               	abstract: 1              	
+abuses: 1                	accent: 1                	accepting: 1             	accessed: 1              	accidental: 1            	
